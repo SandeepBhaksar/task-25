@@ -1,0 +1,88 @@
+.cart {
+    width: 80%;
+    height: 80vh;
+    padding: 20px;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cart h2 {
+    margin-bottom: 20px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px; 
+  }
+  
+  .cart-table th,
+  .cart-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .cart-table th {
+    background-color: #f1f1f1;
+  }
+  
+  .cart-total {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px; 
+    margin-bottom: 10px; 
+  }
+  
+  .quantity-btn {
+    width: 15px;
+    margin: 0px 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #ffc343;
+    color: #eaf4fe;
+  }
+  
+  .empty-cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #777;
+    font-size: 18px;
+  }
+  
+  .info-icon {
+    font-size: 24px;
+    color: #007bff;
+  }
+  
+  .payment-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .payment-btn button {
+    width: 350px;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    background-color: #ffc343;
+    box-shadow: 2px 2px 5px grey;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .payment-btn button:hover {
+    transform: scale(1.1);
+  }
+  
+  .payment-btn button.clicked {
+    transform: scale(0.9);
+  }
+  
