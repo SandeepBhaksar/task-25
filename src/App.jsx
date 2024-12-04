@@ -7,7 +7,7 @@ import Payment from './Components/Payment/Payment';
 function App() {
   return (
     <Provider store={store}>
-      <BrowserRouter>
+      <BrowserRouter basename="/task-25">
         <Routes>
           <Route path="/" element={<Products />} />
           <Route path="/payment" element={<Payment />} />
